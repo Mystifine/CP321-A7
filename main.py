@@ -11,6 +11,7 @@ winner_runnerup_data = pd.read_csv("winner_runnerup_data.csv");
 
 # Initialize the dash app
 app = dash.Dash(__name__);
+server = app.server;
 
 app.layout = html.Div([
 
