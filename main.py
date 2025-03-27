@@ -88,7 +88,7 @@ def updateWinnerRunnerUp(selected_year):
   filtered_data = winner_runnerup_data[winner_runnerup_data["Year"] == selected_year];
   if (not filtered_data.empty):
     row = filtered_data.iloc[0];
-    return f"{selected_year} Winner: {row["Winners"]} | Runnerup: {row["Runner-up"]}";
+    return f"{selected_year} Winner: {row['Winners']} | Runnerup: {row['Runner-up']}";
   else:
     return f"No data found in {selected_year}";
 
