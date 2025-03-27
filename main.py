@@ -95,4 +95,4 @@ def updateWinnerRunnerUp(selected_year):
 
 # Run the server  
 if __name__ == "__main__":
-  app.run(debug=True);
+  app.run(debug=False); # Debug should be false for it to work
